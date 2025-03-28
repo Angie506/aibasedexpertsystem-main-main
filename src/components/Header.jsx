@@ -7,10 +7,10 @@ export default function Header() {
   return (
     <header className={styles.header}>
       {" "}
-      {/* Apply CSS module */}
+      {/* Apply Hello there CSS module */}
       <nav className={styles.navbar}>
         <Link to="/" className={location.pathname === "/" ? styles.active : ""}>
-          Home
+          Home kknkj
         </Link>
         <Link
           to="/forward"
